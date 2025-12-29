@@ -1,4 +1,4 @@
-//usr/bin/rustc "$0" -o xorcrypt && ./xorcrypt "$@"; rm xorcrypt; exit $?
+//usr/bin/rustc "$0" -o xorcrypt && ./xorcrypt "$@" && rm xorcrypt ; exit $?
 //
 // SPDX-License-Identifier: MIT
 //
