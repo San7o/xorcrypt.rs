@@ -1,0 +1,20 @@
+xorcrypt-rs
+===========
+
+Encrypt / Decrypt files by XORing every byte with a key string,
+equivalent to a Vigenere cipher. Bytes with 0 are not XORed as that
+could leak the key.
+
+Author:  Giovanni Santini
+Mail:    giovanni.santini@proton.me
+License: MIT
+
+
+Usage
+-----
+
+Just run:
+
+     ./xorcrypt.rs input.txt key output.txt
+
+No need to have cargo, no need to build the binary yourself
